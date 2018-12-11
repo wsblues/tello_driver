@@ -60,3 +60,8 @@ It is possible to connect to multiple Tello drones by using multiple USB WiFi do
 
 ## Known bugs
 * Sometimes, perhaps when taking off without moving gamepad analog sticks / sending commands to `/tello/cmd_vel`, further cmd_vel will not work; fix by restarting node, moving gamepad analog sticks / send a message to `/tello/cmd_vel` FIRST, then takeoff
+
+
+## prepared...
+* ffmpeg install   
+* liv264-dev install : sudo apt-get install libx264-dev   
