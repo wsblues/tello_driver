@@ -65,3 +65,6 @@ It is possible to connect to multiple Tello drones by using multiple USB WiFi do
 ## prepared...
 * ffmpeg install   
 * liv264-dev install : sudo apt-get install libx264-dev   
+
+## cv_bridge관련 에러   
+* 본 프로그램은 python3를 기반으로 하기 때문에 CV_bridge와 충돌생김. 이를 해결하기 위해 [여기](https://stackoverflow.com/questions/49221565/unable-to-use-cv-bridge-with-ros-kinetic-and-python3?rq=1) 참고   
