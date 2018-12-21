@@ -68,4 +68,5 @@ It is possible to connect to multiple Tello drones by using multiple USB WiFi do
 
 ## cv_bridge관련 에러   
 * python2 환경 추천   
-* 본 프로그램은 python3를 기반으로 하는 경우 CV_bridge와 충돌생김. 이를 해결하기 위해 [여기](https://stackoverflow.com/questions/49221565/unable-to-use-cv-bridge-with-ros-kinetic-and-python3?rq=1) 참고   
+* python3를 기반으로 하는 경우 CV_bridge와 충돌생김. 이를 해결하기 위해 [여기](https://stackoverflow.com/questions/49221565/unable-to-use-cv-bridge-with-ros-kinetic-and-python3?rq=1) 참고  
+  -> 하지만, 결국 catkin build시 가상환경 설정과 충돌되어 최종 빌드 실패...(비추천)
