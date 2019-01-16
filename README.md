@@ -22,16 +22,13 @@ Parameters:
 
 ## Installation
 * `$ cd <CATKIN_WS/SRC>`
-* `$ git clone https://github.com/anqixu/TelloPy.git`
-* `$ cd TelloPy`
-* `$ sudo -H pip2 install -e .`
-* `$ cd ..`
 * `$ git clone https://github.com/anqixu/h264_image_transport.git`
 * `$ git clone https://github.com/anqixu/tello_driver.git`
 * `$ cd ..`
 * `$ rosdep install h264_image_transport`
 * `$ rosdep install tello_driver`
 * `$ catkin build tello_driver`
+(tellopy는 anqixu의 repository 사용하지 않고 기존 tellopy python 패키지 사용 : python2.7에서 사용 가능)
 
 Optionally, install the [following udev rules](https://github.com/anqixu/sixad_rumble/blob/master/misc/10-gamepads.rules) for PS3 gamepads; see instructions in comments on top of file.
 
